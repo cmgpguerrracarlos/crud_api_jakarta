@@ -13,12 +13,22 @@
     </head>
     <body>
         <h1>Testing!!!</h1>
-        <form action="/crudapijakarta/resources/clientes" method="post">
-            <label>Name</label>
-            <input type="text" name="name"/>
-            <label>Ci</label>
-            <input type="text" name="ci"/>
-            <input type="submit" />
+        <br>
+        <a href="/crudapijakarta/resources/hola">Hola mundo Api</a>
+        <hr>
+        <br>
+        <label>Lista de clientes</label>
+        <a href="/crudapijakarta/api/clientes">API</a>
+        <hr>
+        <br>
+        <label>Agregar cliente</label><br><br><br>
+        <form action="/crudapijakarta/api/clientes" method="post">
+            <label>Name</label><br>
+            <input type="text" name="name"/><br><br>
+            <label>Ci</label><br>
+            <input type="text" name="ci"/><br>
+            <input type="submit" value="enviar"/>
         </form>
+        <hr>
     </body>
 </html>
